@@ -21,7 +21,7 @@ import com.security.jwt.models.ni_team;
 import com.security.jwt.repository.TeamRepository;
 
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 public class TeamController {

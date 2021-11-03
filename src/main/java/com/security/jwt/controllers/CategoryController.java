@@ -24,7 +24,7 @@ import com.security.jwt.models.Category;
 import com.security.jwt.repository.CategoryRepository;
 
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 public class CategoryController {

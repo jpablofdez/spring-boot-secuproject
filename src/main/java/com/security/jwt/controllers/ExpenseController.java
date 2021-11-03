@@ -28,7 +28,7 @@ import com.security.jwt.models.ni_team;
 import com.security.jwt.repository.CategoryRepository;
 import com.security.jwt.repository.ExpenseRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 public class ExpenseController {
